@@ -1,0 +1,33 @@
+body {
+    padding-top: 56px;
+  }
+  .container {
+    margin-top: 20px;
+  }
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    overflow-y: auto;
+  }
+  .content {
+    margin-left: 260px; /* Adjust according to sidebar width */
+    padding: 20px;
+  }
+  .keyboard {
+    display: none;
+    margin-top: 20px;
+  }
+  .feedback {
+    margin-top: 10px;
+  }
+  .correct {
+    color: green;
+  }
+  .incorrect {
+    color: red;
+  }
